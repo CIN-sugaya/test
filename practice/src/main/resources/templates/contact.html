@@ -6,7 +6,7 @@
 </head>
 <body>
 　<h1>お問い合わせ</h1>
- <form action="/contact" th:object="${contactForm}" method="post">
+  <form th:action="@{/contact}" th:object="${contactForm}" method="post">
 	<table border="10">
 		<tr>
 			<td>姓</td>
